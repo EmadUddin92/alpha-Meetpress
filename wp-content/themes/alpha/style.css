@@ -63,7 +63,9 @@ h2.post-title {
     background-color: #222;
     color:#ccc;
 }
-
+.footer p{
+    margin: 0 !important;
+}
 .tags li{
     color: #3D9970;
 }
