@@ -1,0 +1,22 @@
+/*
+Theme Name: Launcher
+Theme URI: https://www.emaduddin.com
+Author: Emad Uddin
+Author URI: https://www.emaduddin.com
+Description: My Second Wordpress Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: launcher
+Tags: blog, education,coming soon
+*/
+
+
+#fh5co-logo a{
+    font-style:48px !important;
+    color:#222 !important;
+}
+
+#fh5co-logo{
+    margin-top: 30px;
+}

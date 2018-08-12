@@ -644,7 +644,7 @@ final class _WP_Editors {
 
 				if ( $page_template !== false ) {
 					$page_template = empty( $page_template ) ? 'default' : str_replace( '.', '-', basename( $page_template, '.php' ) );
-					$body_class .= ' page-template-' . sanitize_html_class( $page_template );
+					$body_class .= ' page-templates-' . sanitize_html_class( $page_template );
 				}
 			}
 

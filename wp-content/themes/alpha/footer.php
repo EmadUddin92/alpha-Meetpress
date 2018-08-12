@@ -16,15 +16,17 @@
                     dynamic_sidebar('footer-right');
                 }
                 ?>
-
-                <?php
-                wp_nav_menu(
-                    array(
-                        'theme_location'=>'footermenu',
-                        'menu_id'=>'topmenucontainer',
-                        'menu_class'=>'list-inline text-right',
+                    <div class="footermenu">
+                    <?php
+                    wp_nav_menu(
+                        array(
+                            'theme_location'=>'footermenu',
+                            'menu_id'=>'footermenucontainer',
+                            'menu_class'=>'list-inline text-right',
+                        )
                     )
-                ) ?>
+                    ?>
+                    </div>
             </div>
         </div>
     </div>

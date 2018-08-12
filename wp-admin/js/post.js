@@ -1179,7 +1179,7 @@ jQuery(document).ready( function($) {
 			if ( pageTemplate && ( editor = tinymce.get( 'content' ) ) ) {
 				body = editor.getBody();
 				body.className = body.className.replace( /\bpage-template-[^ ]+/, '' );
-				editor.dom.addClass( body, 'page-template-' + pageTemplate );
+				editor.dom.addClass( body, 'page-templates-' + pageTemplate );
 				$( document ).trigger( 'editor-classchange' );
 			}
 		});
