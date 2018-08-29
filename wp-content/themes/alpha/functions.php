@@ -33,6 +33,7 @@ function alpha_bootstraping(){
     add_theme_support("custom-logo",$alpha_custom_logo_defaults);
     register_nav_menu("topmenu",__("Top menu","alpha"));
     register_nav_menu("footermenu",__("Footer menu","alpha"));
+    add_theme_support("post-formats", array('image','quote','video','audio','link'));
 }
 
 add_action("after_setup_theme","alpha_bootstraping");
@@ -44,7 +45,8 @@ function alpha_assets(){
     wp_enqueue_style("bootstrap","//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
     wp_enqueue_style("fontawsome","//use.fontawesome.com/releases/v5.0.13/css/all.css");
     wp_enqueue_style("featherlight","//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css");
-
+    wp_enqueue_style("dashicons");
+    wp_enqueue_style("alpha",get_stylesheet_uri(),null,VERSION);
     //for external js file
 
     wp_enqueue_script("featherlight-js","//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js",array("jquery"),VERSION,true);

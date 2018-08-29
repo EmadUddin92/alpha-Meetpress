@@ -2,124 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e01bba82-3a9b-4a24-9533-4ec02cdfa65b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/alpha/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/alpha/page-templates/about-page-template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/alpha/page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/alpha/template-parts/about-page/hero-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/css/icomoon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/css/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/fonts/icomoon/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/fonts/icomoon/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/fonts/icomoon/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/fonts/icomoon/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/images/img_bg_1_gradient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/images/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/js/jquery.easing.1.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/js/jquery.waypoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/js/modernizr-2.6.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/js/simplyCountdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/_bootstrap-compass.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/_bootstrap-mincer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/_bootstrap-sprockets.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_alerts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_badges.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_breadcrumbs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_button-groups.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_close.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_code.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_component-animations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_dropdowns.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_glyphicons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_input-groups.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_jumbotron.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_labels.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_modals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_navs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_pager.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_panels.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_popovers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_progress-bars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_responsive-embed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_responsive-utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_scaffolding.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_thumbnails.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/_wells.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_alerts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_center-block.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_hide-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_labels.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_nav-vertical-align.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_opacity.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_panels.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_progress-bar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_reset-filter.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_responsive-visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_tab-focus.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_table-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_text-overflow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/bootstrap/mixins/_vendor-prefixes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/launcher/markup/sass/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/post.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/post.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/alpha/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/alpha/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/alpha/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/alpha/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/alpha/hero.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/alpha/template-parts/common/hero.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/alpha/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/alpha/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/alpha/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/alpha/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/alpha/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/alpha/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/class-wp-editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/class-wp-editor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/post-template.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/post-template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/class-http.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/class-http.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -136,11 +23,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="single.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/single.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+            <state relative-caret-position="306">
+              <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
@@ -153,6 +58,11 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>wp_kses_bad_protocol</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -169,12 +79,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/about-page-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/hero-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/alpha/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/template-parts/about-page/hero-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/template-parts/common/hero.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/alpha/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/alpha/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/404.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/page-templates/about-page-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/launcher/index.php" />
@@ -189,6 +96,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/launcher/testtemplate.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/launcher/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/alpha/single.php" />
+        <option value="$PROJECT_DIR$/wp-includes/class-http.php" />
+        <option value="$PROJECT_DIR$/wp-includes/www.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/alpha/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/alpha/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/alpha/style.css" />
       </list>
     </option>
   </component>
@@ -209,7 +121,7 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-469" />
+    <option name="x" value="-470" />
     <option name="y" value="50" />
     <option name="width" value="1505" />
     <option name="height" value="970" />
@@ -225,47 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="alpha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="launcher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -310,6 +181,47 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="alpha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="launcher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,18 +232,18 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\wordpress\wp-content\themes\alpha\template-parts\common" />
-      <recent name="D:\xampp\htdocs\wordpress\wp-content\themes\alpha\template-parts\about-page" />
-      <recent name="D:\xampp\htdocs\wordpress\wp-content\themes\alpha\page-templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\wordpress\wp-content\themes\launcher\assets" />
       <recent name="D:\xampp\htdocs\wordpress\wp-content\themes\launcher\markup" />
       <recent name="D:\xampp\htdocs\wordpress\wp-content\themes\alpha" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\wordpress\wp-content\themes\alpha\template-parts\common" />
+      <recent name="D:\xampp\htdocs\wordpress\wp-content\themes\alpha\template-parts\about-page" />
+      <recent name="D:\xampp\htdocs\wordpress\wp-content\themes\alpha\page-templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -386,7 +298,10 @@
       <workItem from="1533397348448" duration="7466000" />
       <workItem from="1533918393433" duration="1423000" />
       <workItem from="1533920218723" duration="3988000" />
-      <workItem from="1534081450044" duration="9906000" />
+      <workItem from="1534081450044" duration="9998000" />
+      <workItem from="1534611337237" duration="1473000" />
+      <workItem from="1535394994378" duration="2099000" />
+      <workItem from="1535560909411" duration="4471000" />
     </task>
     <task id="LOCAL-00001" summary="single.php modified">
       <created>1527967608545</created>
@@ -399,13 +314,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106415000" />
+    <option name="totallyTimeSpent" value="114550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="664" y="23" width="208" height="778" id="Project" order="0" sideWeight="0.49871466" visible="true" weight="0.19865772" />
+      <window_info active="true" content_ui="combo" x="664" y="23" width="208" height="778" id="Project" order="0" sideWeight="0.49871466" visible="true" weight="0.20671141" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32965517" />
@@ -429,19 +344,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" x="664" y="23" width="208" height="778" id="Project" order="0" sideWeight="0.49871466" visible="true" weight="0.19597316" />
       <window_info id="Structure" order="1" sideWeight="0.5012854" side_tool="true" weight="0.13541667" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3294271" />
@@ -466,6 +381,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/launcher/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -675,20 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="49" column="139" selection-start-line="49" selection-start-column="132" selection-end-line="49" selection-end-column="139" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/launcher/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -717,9 +639,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/launcher/testtemplate">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/launcher/testtemplate" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/template-parts/common/hero.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -756,8 +676,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="1100">
+          <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/www.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="249" column="24" lean-forward="true" selection-start-line="249" selection-start-column="24" selection-end-line="249" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/class-http.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="254" column="22" selection-start-line="254" selection-start-column="21" selection-end-line="254" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/alpha/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
