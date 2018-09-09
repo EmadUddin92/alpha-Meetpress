@@ -1,9 +1,18 @@
+<?php
+$alpha_layout_class = "col-md-8";
+$alpha_text_class   = "";
+if (!is_active_sidebar("sidebar-1")) {
+    $alpha_layout_class = "col-md-10 offset-md-1";
+    $alpha_text_class   = "text-center";
+}
+?>
+
 <?php get_header(); ?>
 <body <?php body_class(); ?>>
 <?php get_template_part("/template-parts/common/hero"); ?>
 <div class="container">
     <div class="row">
-        <div class="col-md-8">
+        <div class="<?php echo $alpha_layout_class; ?>">
             <div class="posts">
                 <?php
                 while (have_posts()):
@@ -13,10 +22,10 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="post-title">
+                                    <h2 class="post-title <?php echo $alpha_text_class; ?>">
                                         <?php the_title(); ?>
                                     </h2>
-                                    <p class="">
+                                    <p class="<?php echo $alpha_text_class; ?>">
                                         <strong><?php the_author(); ?></strong><br/>
                                         <?php echo get_the_date(); ?>
                                     </p>
@@ -48,8 +57,24 @@
                                     previous_post_link();*/
                                     ?>
                                 </div>
+
+                                <div class="container authorsection">
+                                    <div class="row">
+                                        <div class="col-sm-2 authorimage">
+                                            <?php
+                                            echo get_avatar(get_the_author_meta("id"));
+                                            ?>
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <h4><?php echo get_the_author_meta("display_name") ?></h4>
+                                            <p><?php echo get_the_author_meta("description") ?></p>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="col-md-12">
-                                    <?php comments_template(); ?>
+                                    <?php
+                                    //comments_template();
+                                    ?>
                                 </div>
                             </div>
                         </div>
@@ -60,13 +85,18 @@
             </div>
 
         </div>
-        <div class="col-md-4">
-            <?php
-            if (is_active_sidebar('sidebar-1')) {
-                dynamic_sidebar('sidebar-1');
-            }
+        <?php
+        if (is_active_sidebar("sidebar-1")):
             ?>
-        </div>
+            <div class="col-md-4">
+                <?php
+                if (is_active_sidebar('sidebar-1')) {
+                    dynamic_sidebar('sidebar-1');
+                }
+                ?>
+            </div>
+
+        <?php endif; ?>
     </div>
 
 <?php get_footer(); ?>
