@@ -1,5 +1,10 @@
 <?php
 
+if (class_exists( 'Attachments' ) ){
+    require_once "lib/attachment.php";
+}
+
+
 /*Cash busting*/
 
 if(site_url()=="http://localhost/wordpress"){
