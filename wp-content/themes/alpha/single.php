@@ -8,7 +8,7 @@ if (!is_active_sidebar("sidebar-1")) {
 ?>
 
 <?php get_header(); ?>
-<body <?php body_class(array("first_class","second_class")); ?>>
+<body <?php body_class(array("first_class", "second_class")); ?>>
 <?php get_template_part("/template-parts/common/hero"); ?>
 <div class="container">
     <div class="row">
@@ -38,17 +38,34 @@ if (!is_active_sidebar("sidebar-1")) {
                                     ?>
                                 </div>
                                 <div class="col-md-12">
-                                    <p>
+                                    <div class="slider">
                                         <?php
-                                        if (has_post_thumbnail()) {
-                                            $thumbnail_url = get_the_post_thumbnail_url(null, "large");
-//                                            echo '<a href="'.$thumbnail_url.'" data-featherlight="image">';
-                                            printf('<a href="%s" data-featherlight="image">', $thumbnail_url);
-                                            the_post_thumbnail("large", array("class" => "img-fluid"));
-                                            echo '</a>';
+                                        if (class_exists('Attachments')) {
+                                            $attachments = new Attachments('slider');
+                                            if ($attachments->exist()) {
+                                                while ($attachment = $attachments->get()) { ?>
+                                                    <div>
+                                                        <?php echo $attachment = $attachments->image('large'); ?>
+                                                    </div>
+                                                    <?php
+                                                }
+                                            }
                                         }
                                         ?>
-                                    </p>
+                                    </div>
+                                    <div>
+                                        <?php
+                                        if (!class_exists('Attachments')) {
+                                            if (has_post_thumbnail()) {
+                                                $thumbnail_url = get_the_post_thumbnail_url(null, "large");
+                                                echo '<a href="' . $thumbnail_url . '" data-featherlight="image">';
+                                                printf('<a href="%s" data-featherlight="image">', $thumbnail_url);
+                                                the_post_thumbnail("large", array("class" => "img-fluid"));
+                                                echo '</a>';
+                                            }
+                                        }
+                                        ?>
+                                    </div>
                                     <?php
                                     the_content();
                                     wp_link_pages();
