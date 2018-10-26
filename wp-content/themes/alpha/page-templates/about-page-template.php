@@ -36,32 +36,36 @@ get_header();
                     </div>
 
 
-                        <div class="col-md-8 offset-md-2">
+                    <div class="col-md-8 offset-md-2">
+                        <?php if (class_exists('Attachments')) {
 
+                            ?>
                             <h2 class="text-center">
                                 <?php _e('Testimonials', 'alpha') ?>
                             </h2>
-
-                            <div class="tesimonials slider text-center">
-                                <?php
-                                if (class_exists('Attachments')) {
-                                    $attachments = new Attachments('testimonials');
-                                    if ($attachments->exist()) {
-                                        while ($attachment = $attachments->get()) { ?>
-                                            <div>
-                                                <?php echo $attachment = $attachments->image('thumbnail'); ?>
-                                                <h4><?php echo esc_html($attachment = $attachments->field('name')); ?></h4>
-                                                <p><?php echo esc_html($attachment = $attachments->field('testimonal')); ?></p>
-                                                <p><?php echo esc_html($attachment = $attachments->field('position')); ?></p>
-                                                <strong><?php echo esc_html($attachment = $attachments->field('company')); ?></strong>
-                                            </div>
-                                            <?php
-                                        }
+                            <?php
+                        }
+                        ?>
+                        <div class="tesimonials slider text-center">
+                            <?php
+                            if (class_exists('Attachments')) {
+                                $attachments = new Attachments('testimonials');
+                                if ($attachments->exist()) {
+                                    while ($attachment = $attachments->get()) { ?>
+                                        <div>
+                                            <?php echo $attachment = $attachments->image('thumbnail'); ?>
+                                            <h4><?php echo esc_html($attachment = $attachments->field('name')); ?></h4>
+                                            <p><?php echo esc_html($attachment = $attachments->field('testimonal')); ?></p>
+                                            <p><?php echo esc_html($attachment = $attachments->field('position')); ?></p>
+                                            <strong><?php echo esc_html($attachment = $attachments->field('company')); ?></strong>
+                                        </div>
+                                        <?php
                                     }
                                 }
-                                ?>
-                            </div>
+                            }
+                            ?>
                         </div>
+                    </div>
 
 
                     <div class="col-md-10 offset-md-1">
