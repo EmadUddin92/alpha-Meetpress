@@ -35,10 +35,15 @@ function alpha_bootstraping(){
     );
 
     add_theme_support("custom-background");
+    add_theme_support( 'html5', array( 'search-form' ) );
     add_theme_support("custom-logo",$alpha_custom_logo_defaults);
     register_nav_menu("topmenu",__("Top menu","alpha"));
     register_nav_menu("footermenu",__("Footer menu","alpha"));
     add_theme_support("post-formats", array('image','quote','video','audio','link'));
+    add_image_size("alpha-square", 400 ,400, true);//center center;
+    add_image_size("alpha-square-new", 401 ,401,array("left", "top"));
+    add_image_size("alpha-square-new2", 500 ,600,array("center", "center"));
+    add_image_size("alpha-square-new3", 600 ,600,array("right", "center"));
 }
 
 add_action("after_setup_theme","alpha_bootstraping");
@@ -198,3 +203,17 @@ function alpha_post_class($classes){
 }
 
 add_filter("post_class","alpha_post_class");
+
+function alpha_highlight_search_results($text){
+    if(is_search()){
+
+        $pattern = '/('. join('|', explode(' ', get_search_query())).')/i';
+        $text = preg_replace($pattern, '<span class="search-highlight">\0</span>', $text);
+    }
+    return $text;
+}
+add_filter('the_content', 'alpha_highlight_search_results');
+add_filter('the_excerpt', 'alpha_highlight_search_results');
+add_filter('the_title', 'alpha_highlight_search_results');
+
+add_filter("wp_calculate_image_srcset","__return_null");

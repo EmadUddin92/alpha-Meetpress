@@ -71,3 +71,51 @@ function alpha_testimonial_attachments($attachments){
 }
 
 add_action( 'attachments_register', 'alpha_testimonial_attachments' );
+
+// Team Section
+
+function alpha_team_attachments($attachments){
+    $fields = array(
+        array(
+            'name' => 'name',
+            'type' => 'text',
+            'label' => __('Name','alpha'),
+        ),
+        array(
+            'name' => 'position',
+            'type' => 'text',
+            'label' => __('Position','alpha'),
+        ),
+        array(
+            'name' => 'email',
+            'type' => 'text',
+            'label' => __('Email','alpha'),
+        ),
+        array(
+            'name' => 'company',
+            'type' => 'text',
+            'label' => __('Company','alpha'),
+        ),
+        array(
+            'name' => 'bio',
+            'type' => 'textarea',
+            'label' => __('Bio','alpha'),
+        ),
+    );
+
+    $args = array(
+
+        'label'         => 'Team Members',
+        'post_type'     => array( 'page'),
+        'filetype'      => array( "image"),
+        'note'          => 'Add a team member',
+        'button_text'   => __( 'Attach Files', 'alpha' ),
+        'fields'        => $fields,
+
+    );
+
+    $attachments->register('team', $args );
+
+}
+
+add_action( 'attachments_register', 'alpha_team_attachments' );

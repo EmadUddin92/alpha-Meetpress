@@ -3,6 +3,46 @@
 <body <?php body_class();?>>
 <?php get_template_part("/template-parts/common/hero");?>
 
+<div class="container">
+<?php
+    if(is_front_page()){
+?>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <?php
+                $attachments = new Attachments('testimonials', 47);
+                if (class_exists('Attachments') && $attachments-> exist()) {
+
+                    ?>
+                    <h2 class="text-center">
+                        <?php _e('Testimonials', 'alpha') ?>
+                    </h2>
+                    <?php
+                }
+                ?>
+                <div class="tesimonials slider text-center">
+                    <?php
+                    if (class_exists('Attachments')) {
+
+                        if ($attachments->exist()) {
+                            while ($attachment = $attachments->get()) { ?>
+                                <div>
+                                    <?php echo $attachment = $attachments->image('thumbnail'); ?>
+                                    <h4><?php echo esc_html($attachment = $attachments->field('name')); ?></h4>
+                                    <p><?php echo esc_html($attachment = $attachments->field('testimonal')); ?></p>
+                                    <p><?php echo esc_html($attachment = $attachments->field('position')); ?></p>
+                                    <strong><?php echo esc_html($attachment = $attachments->field('company')); ?></strong>
+                                </div>
+                                <?php
+                            }
+                        }
+                    }
+                    ?>
+                </div>
+            </div>
+        </div>
+    <?php } ?>
+</div>
             <div class="posts">
                 <?php
                 while(have_posts()):

@@ -37,7 +37,9 @@ get_header();
 
 
                     <div class="col-md-8 offset-md-2">
-                        <?php if (class_exists('Attachments')) {
+                        <?php
+                        $attachments = new Attachments('testimonials');
+                        if (class_exists('Attachments') && $attachments-> exist()) {
 
                             ?>
                             <h2 class="text-center">
@@ -49,7 +51,7 @@ get_header();
                         <div class="tesimonials slider text-center">
                             <?php
                             if (class_exists('Attachments')) {
-                                $attachments = new Attachments('testimonials');
+
                                 if ($attachments->exist()) {
                                     while ($attachment = $attachments->get()) { ?>
                                         <div>
@@ -67,6 +69,34 @@ get_header();
                         </div>
                     </div>
 
+                    <div class="row">
+                        <?php
+                            if(class_exists('Attachments')){
+                        ?>
+                        <div class="row">
+                            <?php
+                            if (class_exists('Attachments')) {
+                                $attachments = new Attachments('team');
+                                if ($attachments->exist()) {
+                                    while ($attachment = $attachments->get()) { ?>
+                                        <div class="col-md-4">
+                                            <?php echo $attachment = $attachments->image('medium'); ?>
+                                            <h4><?php echo esc_html($attachment = $attachments->field('name')); ?></h4>
+                                            <p><?php echo esc_html($attachment = $attachments->field('position')); ?></p>
+                                            <p><?php echo esc_html($attachment = $attachments->field('company')); ?></p>
+                                            <p><?php echo esc_html($attachment = $attachments->field('email')); ?></p>
+                                            <p><?php echo esc_html($attachment = $attachments->field('bio')); ?></p>
+                                        </div>
+                                        <?php
+                                    }
+                                }
+                            }
+                            ?>
+                        </div>
+                        <?php
+                            }
+                        ?>
+                    </div>
 
                     <div class="col-md-10 offset-md-1">
                         <p>

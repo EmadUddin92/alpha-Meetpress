@@ -128,3 +128,8 @@ h2.post-title {
     border-radius: 60px;
     margin: 15px 0;
 }
+
+.search-highlight{
+    background: #ff0;
+    font-weight: bold;
+}

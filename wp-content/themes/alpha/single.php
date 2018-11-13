@@ -64,6 +64,14 @@ if (!is_active_sidebar("sidebar-1")) {
                                                 echo '</a>';
                                             }
                                         }
+
+                                        the_post_thumbnail("alpha-square-new");
+                                        echo "<br>";
+                                        the_post_thumbnail("alpha-square-new2");
+                                        echo "<br>";
+                                        the_post_thumbnail("alpha-square-new3");
+                                        echo "<br>";
+
                                         ?>
                                     </div>
                                     <?php
