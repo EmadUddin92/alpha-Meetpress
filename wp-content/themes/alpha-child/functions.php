@@ -11,3 +11,8 @@ function alpha_about_page_template_banner(){
 
 }
 
+
+function alpha_todays_date(){
+    echo date("d/m/y");
+}
+

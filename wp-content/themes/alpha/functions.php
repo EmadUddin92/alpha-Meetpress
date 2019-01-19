@@ -219,6 +219,9 @@ add_filter('the_title', 'alpha_highlight_search_results');
 
 add_filter("wp_calculate_image_srcset","__return_null");
 
+if(!function_exists("alpha_todays_date")){
 function alpha_todays_date(){
     echo date("d/m/y");
+}
+
 }
