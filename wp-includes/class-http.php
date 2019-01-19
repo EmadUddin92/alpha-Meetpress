@@ -248,14 +248,14 @@ class WP_Http {
 		if ( false !== $pre )
 			return $pre;
 
-/*		if ( function_exists( 'wp_kses_bad_protocol' ) ) {
+		if ( function_exists( 'wp_kses_bad_protocol' ) ) {
 			if ( $r['reject_unsafe_urls'] ) {
 				$url = wp_http_validate_url( $url );
 			}
 			if ( $url ) {
 				$url = wp_kses_bad_protocol( $url, array( 'http', 'https', 'ssl' ) );
 			}
-		}*/
+		}
 
 		$arrURL = @parse_url( $url );
 
@@ -267,7 +267,7 @@ class WP_Http {
 			return new WP_Error( 'http_request_failed', __( 'User has blocked requests through HTTP.' ) );
 		}
 
-		// If we are streaming wp_kses_bad_protocolto a file but no filename was given drop it in the WP temp dir
+		// If we are streaming to a file but no filename was given drop it in the WP temp dir
 		// and pick its name using the basename of the $url
 		if ( $r['stream'] ) {
 			if ( empty( $r['filename'] ) ) {

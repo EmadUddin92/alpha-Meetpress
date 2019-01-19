@@ -1,0 +1,17 @@
+/*
+Theme Name: Alpha Child
+Template:alpha
+Theme URI: https://www.emaduddin.com
+Author: Emad Uddin
+Author URI: https://www.emaduddin.com
+Description: My First Wordpress site
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: alpha-child
+Tags: blog, education
+*/
+
+h1.align-self-center.display-1.text-center.heading {
+    font-weight: 600;
+}

@@ -51,7 +51,6 @@ add_action("after_setup_theme","alpha_bootstraping");
 function alpha_assets(){
     //for external css file
 
-    wp_enqueue_style("alpha",get_stylesheet_uri(),null,VERSION);
     wp_enqueue_style("bootstrap","//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
     wp_enqueue_style("fontawsome","//use.fontawesome.com/releases/v5.0.13/css/all.css");
     wp_enqueue_style("featherlight","//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css");
@@ -140,7 +139,7 @@ add_filter("nav_menu_css_class", "alpha_menu_item_class",10, 2);
 
 //Custom header background
 
-
+if (!function_exists("alpha_about_page_template_banner")){
 function alpha_about_page_template_banner(){
     if(is_page()){
         $alpha_feat_image = get_the_post_thumbnail_url(null,"large");
@@ -189,6 +188,8 @@ function alpha_about_page_template_banner(){
 }
 add_action("wp_head","alpha_about_page_template_banner",11);
 
+}
+
 function alpha_body_class($classes){
    unset($classes[array_search("custom-background", $classes)]);
    unset($classes[array_search("wp-custom-logo", $classes)]);
@@ -217,3 +218,9 @@ add_filter('the_excerpt', 'alpha_highlight_search_results');
 add_filter('the_title', 'alpha_highlight_search_results');
 
 add_filter("wp_calculate_image_srcset","__return_null");
+
+function alpha_todays_date(){
+
+}
+
+add_action();
