@@ -11,6 +11,7 @@
                 <?php
                 endif;
                 ?>
+                
                 <h3 class="tagline">
                     <?php bloginfo("description"); ?>
                 </h3>
