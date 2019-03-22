@@ -98,7 +98,7 @@ if (!is_active_sidebar("sidebar-1")) {
                                 </div>
                                 <div class="col-md-12">
                                     <?php
-                                    //comments_template();
+                                    comments_template();
                                     ?>
                                 </div>
                             </div>
